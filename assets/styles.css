@@ -1,0 +1,35 @@
+.collective_div {
+    width: 50%;
+    height: 60%;
+    background: linear-gradient(to right, purple 0%, purple 50%, rgb(255, 251, 251) 25%, rgb(244, 233, 233) 50% );
+    border-radius: 20px;
+    /*display: flex;*/ /* Set display property to flex */
+    
+}
+    
+.container {
+    width: 100%;
+    overflow: hidden;
+    justify-content: center; /* Horizontally center the div */
+    align-items: center;
+
+  }
+  
+  .column {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .colum {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 10px;
+  }
